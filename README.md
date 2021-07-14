@@ -1,4 +1,4 @@
-### Hi there 👋
+## Hi there 👋
 <!--
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
@@ -7,16 +7,18 @@
 - 😄 Pronouns: he/him
 - ⚡ Fun fact: I like Fire Emblem
 
-#### Current large projects
+<hr>
+
+### Current projects:
 ##### Windows
 * [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player)
 * [Chroms-Awakening](https://github.com/Stridsvagn69420/Chroms-Awakening)
 
 ##### Linux
-<hr>
+* none
 
 ##### Android
-<hr>
+* none
 
 ##### Discord
 * [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
