@@ -9,21 +9,21 @@
 
 <hr>
 
-### I made this:
-##### Windows
+## I made this:
+### Windows
 * [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player)
 * [Chroms-Awakening](https://github.com/Stridsvagn69420/Chroms-Awakening)
 
-##### Linux
+### Linux
 * none
 
-##### Android
+### Android
 * none
 
-##### Discord
+### Discord
 * [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
 
-##### Others
+### Others
 * [RaspberryPi](https://github.com/Stridsvagn69420/RaspberryPi)
 * [MinecraftBedrock](https://github.com/Stridsvagn69420/MinecraftBedrock)
 * [dark.unitcore.de](https://github.com/Stridsvagn69420/dark.unitcore.de)
