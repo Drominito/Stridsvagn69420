@@ -1,11 +1,9 @@
 ## Hi there 👋
-<!--
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
--->
-- 📫 How to reach me: [Twitter](https://twitter.com/rog_nineteen), [Instagram](https://www.instagram.com/rog_nineteen/), [Reddit](https://www.reddit.com/user/rog_nineteen)
+- 👨‍💻 Name: Strids
+- 🚩 Nationality: German 🖤💖💛
 - 😄 Pronouns: he/him
-- ⚡ Fun fact: I like Fire Emblem
+- 📫 How to reach me: [Twitter](https://twitter.com/rog_nineteen), [Instagram](https://www.instagram.com/rog_nineteen/), [Reddit](https://www.reddit.com/user/rog_nineteen)
+- ⚡ Fun fact: I like Fire Emblem and could talk for hours about it!
 
 <hr>
 
@@ -16,6 +14,9 @@
 
 ### Linux
 * none
+
+### Cross-platform
+* [YTDL-GUI](https://github.com/Stridsvagn69420/YTDL-GUI)
 
 ### Android
 * none
