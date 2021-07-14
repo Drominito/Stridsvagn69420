@@ -23,8 +23,3 @@
 
 ### Discord
 * [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
-
-### Others
-* [RaspberryPi](https://github.com/Stridsvagn69420/RaspberryPi)
-* [MinecraftBedrock](https://github.com/Stridsvagn69420/MinecraftBedrock)
-* [dark.unitcore.de](https://github.com/Stridsvagn69420/dark.unitcore.de)
