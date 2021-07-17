@@ -17,6 +17,7 @@
 
 ### Cross-platform
 * [YTDL-GUI](https://github.com/Stridsvagn69420/YTDL-GUI)
+* [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 
 ### Android
 * none
