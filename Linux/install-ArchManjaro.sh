@@ -40,4 +40,4 @@ echo '[Installation done!]'
 neofetch
 echo '//////////////////////////////////////////////////////////'
 echo 'You should restart your system, after that:'
-echo 'You should check the config of: neofetch, samba, chromium, discord, steam, ssh, spotify, git'
+echo 'You should check the config of: neofetch, samba, chromium, discord, steam, ssh, spotify, git, <terminalEmulator>, zsh, powerlevel10k'
