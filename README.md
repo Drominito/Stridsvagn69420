@@ -13,7 +13,7 @@
 * [Chroms-Awakening](https://github.com/Stridsvagn69420/Chroms-Awakening)
 
 ### Linux
-* none
+* [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
 
 ### Cross-platform
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
