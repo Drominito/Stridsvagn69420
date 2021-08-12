@@ -14,12 +14,13 @@
 
 ### Linux
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
+* [DiscordRPC-Linux](https://github.com/Stridsvagn69420/DiscordRPC-Linux)
 
 ### Cross-platform
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 
 ### Android
-* none
+* [DiscordRPC-Android](https://github.com/Stridsvagn69420/DiscordRPC-Android)
 
 ### Discord
 * [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
