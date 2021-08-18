@@ -9,14 +9,14 @@
 
 ## I made this:
 ### Windows
-* [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player)
 * [Chroms-Awakening](https://github.com/Stridsvagn69420/Chroms-Awakening)
 
 ### Linux
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
 
 ### Cross-platform
-* [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
+* [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player)
+* [DiscordRPC-Manager](https://github.com/Stridsvagn69420/DiscordRPC-Manager)
 
 ### Android
 * [DiscordRPC-Android](https://github.com/Stridsvagn69420/DiscordRPC-Android)
