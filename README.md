@@ -9,7 +9,7 @@
 
 ## I made this:
 ### Windows
-* [Chroms-Awakening](https://github.com/Stridsvagn69420/Chroms-Awakening)
+* none
 
 ### Linux
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
