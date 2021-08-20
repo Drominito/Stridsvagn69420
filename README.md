@@ -15,6 +15,7 @@
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
 
 ### Cross-platform
+* [TwitterBookmarks](https://github.com/Stridsvagn69420/TwitterBookmarks)
 * [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player)
 * [DiscordRPC-Manager](https://github.com/Stridsvagn69420/DiscordRPC-Manager)
 
