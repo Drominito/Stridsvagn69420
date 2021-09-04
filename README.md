@@ -1,10 +1,15 @@
-## Hi there 👋
+# Hi there 👋
 - 👨‍💻 Name: Strids
 - 🚩 Nationality: German 🖤💖💛
 - 😄 Pronouns: he/him
 - 📫 How to reach me: [Twitter](https://twitter.com/rog_nineteen), [Instagram](https://www.instagram.com/rog_nineteen/), [Reddit](https://www.reddit.com/user/rog_nineteen)
 - ⚡ Fun fact: I like Fire Emblem and could talk for hours about it!
 - 💻 Currently using Windows, though I want to switch to [Arch](https://archlinux.org/)/[Manjaro](https://manjaro.org/)
+## Favourite Lanuages:
+- C# (.NET 5)
+- JavaScript (Node.js)
+- PowerShell
+
 <hr>
 
 ## I made this:
