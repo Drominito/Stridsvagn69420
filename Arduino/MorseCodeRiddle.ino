@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Keypad.h>
 #include <HardwareSerial.h>
-extern HardwareSerial Serial; //HardwareSerial isn't translated to Serial automatically in other IDEs
+extern HardwareSerial Serial;
 
 /*Config for Pin and Delay*/
 //TUNE THESE SETTINGS
