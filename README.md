@@ -5,17 +5,11 @@
 - 📫 How to reach me: [Twitter](https://twitter.com/rog_nineteen), [Instagram](https://www.instagram.com/rog_nineteen/), [Reddit](https://www.reddit.com/user/rog_nineteen)
 - ⚡ Fun fact: I like Fire Emblem and could talk for hours about it!
 - 💻 Currently using Windows, though I want to switch to [Arch](https://archlinux.org/)/[Manjaro](https://manjaro.org/)
-## Favourite Lanuages:
-- C# (.NET 5)
-- JavaScript (Node.js)
-- PowerShell
+![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stridsvagn69420&layout=compact&count_private=true&hide_title=true&langs_count=14)
 
 <hr>
 
-## I made this:
-### Windows
-* none
-
+# I made this:
 ### Linux
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
 
@@ -35,3 +29,10 @@
 * [Stridsvagn69420.github.io](https://github.com/Stridsvagn69420/Stridsvagn69420.github.io)
 * [dark.unitcore.de](https://github.com/Stridsvagn69420/dark.unitcore.de)
 * [RaspberryPi](https://github.com/Stridsvagn69420/RaspberryPi)
+
+### Microcontrollers
+* [ArduinoUNO](https://github.com/Stridsvagn69420/ArduinoUNO)
+* [ArduinoMEGA](https://github.com/Stridsvagn69420/ArduinoMEGA)
+
+### Other
+* [Math-Class](https://github.com/Stridsvagn69420/Math-Class)
