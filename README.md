@@ -9,9 +9,6 @@
 ![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stridsvagn69420&layout=compact&count_private=true&hide_title=true&langs_count=14)
 
 # I made this:
-### Linux
-* [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
-
 ### Cross-platform
 * [TwitterBookmarks](https://github.com/Stridsvagn69420/TwitterBookmarks)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
@@ -26,10 +23,13 @@
 ### Discord
 * [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
 
+### Linux
+* [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
+
 ### Web
 * [Stridsvagn69420.github.io](https://github.com/Stridsvagn69420/Stridsvagn69420.github.io)
-* [dark.unitcore.de](https://github.com/Stridsvagn69420/dark.unitcore.de)
-* [RaspberryPi](https://github.com/Stridsvagn69420/RaspberryPi)
+* \[PRIVATE] [dark.unitcore.de](https://github.com/Stridsvagn69420/dark.unitcore.de)
+* \[PRIVATE] [RaspberryPi](https://github.com/Stridsvagn69420/RaspberryPi)
 
 ### Microcontrollers
 * [ArduinoUNO](https://github.com/Stridsvagn69420/ArduinoUNO)
