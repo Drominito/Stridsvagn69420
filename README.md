@@ -13,7 +13,7 @@
 * [TwitterBookmarks](https://github.com/Stridsvagn69420/TwitterBookmarks)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
 * [InstaSaved](https://github.com/Stridsvagn69420/InstaSaved) (WIP)
-* [Tweet-DL](https://github.com/Stridsvagn69420/TwitterBookmarks) (WIP)
+* [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL) (WIP)
 * [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player) (WIP)
 * [jitter](https://github.com/Stridsvagn69420/jitter) (WIP)
 
