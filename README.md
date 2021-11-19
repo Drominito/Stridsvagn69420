@@ -20,7 +20,7 @@
 * [DiscordRPC-Android](https://github.com/Stridsvagn69420/DiscordRPC-Android) (WIP)
 
 ### Discord
-* [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
+* \[PRIVATE] [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
 
 ### Linux
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
