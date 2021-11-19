@@ -7,7 +7,7 @@
 - 💻 Currently using Windows, I want to switch to [Arch](https://archlinux.org/)/[Manjaro](https://manjaro.org/) though
   
 ![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stridsvagn69420&layout=compact&count_private=true&hide_title=true&langs_count=16&theme=github_dark)
-![Stats](https://github-readme-stats.vercel.app/api?username=Stridsvagn69420&show_icons=true&theme=github_dark&count_private=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=Stridsvagn69420&show_icons=true&theme=github_dark&count_private=true&hide_title=true)
 
 # I made this:
 ### Cross-platform
