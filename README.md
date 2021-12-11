@@ -12,6 +12,7 @@
 # I made this:
 ### Cross-platform
 * [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player) (WIP)
+* [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
 * [jitter](https://github.com/Stridsvagn69420/jitter) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 * [InstaSaved](https://github.com/Stridsvagn69420/InstaSaved) (WIP)
@@ -20,16 +21,16 @@
 ### Android
 * [DiscordRPC-Android](https://github.com/Stridsvagn69420/DiscordRPC-Android) (WIP)
 
-### Discord
-* \[PRIVATE] [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
-
-### Linux
-* [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
-
 ### Web
+* [DiscordRPC-Web](https://github.com/Stridsvagn69420/DiscordRPC-Web) (WIP)
 * [Stridsvagn69420.github.io](https://github.com/Stridsvagn69420/Stridsvagn69420.github.io)
 * \[PRIVATE] [dark.unitcore.de](https://github.com/Stridsvagn69420/dark.unitcore.de)
 * \[PRIVATE] [RaspberryPi](https://github.com/Stridsvagn69420/RaspberryPi)
+
+### Discord
+* \[PRIVATE] [DiscordWebBot](https://github.com/Stridsvagn69420/DiscordWebBot)
+* \[PRIVATE] [FET-Gaming](https://github.com/StaOtt/FET-Gaming)
+* \[PRIVATE] [CrankBot](https://github.com/StaOtt/CrankBot)
 
 ### Microcontrollers
 * [ArduinoUNO](https://github.com/Stridsvagn69420/ArduinoUNO)
