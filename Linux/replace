@@ -1,0 +1,31 @@
+#!/bin/sh
+if [ -z "$1" ]
+then
+        echo "First argument (file extension of files to replace) not set!";
+        exit 1;
+else
+        echo "File extension of files to replace: $1";
+fi
+
+if [ -z "$2" ]
+then
+        echo "Second argument (what to replace) not set!";
+        exit 1;
+else
+        echo "What to replace: $2";
+fi
+
+if [ -z "$3" ]
+then
+        echo "Third argument (replacement) not set!";
+        exit 1;
+else
+        echo "Replacement: $3";
+fi
+
+for f in *."$1"; do mv -vn "$f" "$(echo "$f" | sed s/"$2"/"$3"/)"; done;
+exit 0;
+
+# First argument is files to filter (use * for all, e.g. jpg)
+# Second argument is what you want to replace (e.g. IMG for IMG-XXXXXXXX.jpg)
+# Third argument is what you want to use as a replacement (e.g. with Image: IMG-XXXXXXXX.jpg => Image-XXXXXXXX.jpg)
