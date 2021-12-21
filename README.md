@@ -15,7 +15,6 @@
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
 * [jitter](https://github.com/Stridsvagn69420/jitter) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
-* [InstaSaved](https://github.com/Stridsvagn69420/InstaSaved) (WIP)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
 
 ### Android
