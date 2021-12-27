@@ -11,7 +11,7 @@
 
 # I made this:
 ### Cross-platform
-* [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player)
+* [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player) (WIP)
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
 * [Jitter](https://github.com/Stridsvagn69420/Jitter) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
