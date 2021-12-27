@@ -11,17 +11,13 @@
 
 # I made this:
 ### Cross-platform
-* [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player) (WIP)
+* [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player)
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
-* [jitter](https://github.com/Stridsvagn69420/jitter) (WIP)
+* [Jitter](https://github.com/Stridsvagn69420/Jitter) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
 
-### Android
-* [DiscordRPC-Android](https://github.com/Stridsvagn69420/DiscordRPC-Android) (WIP)
-
 ### Web
-* [DiscordRPC-Web](https://github.com/Stridsvagn69420/DiscordRPC-Web) (WIP)
 * [Stridsvagn69420.github.io](https://github.com/Stridsvagn69420/Stridsvagn69420.github.io)
 * \[PRIVATE] [dark.unitcore.de](https://github.com/Stridsvagn69420/dark.unitcore.de)
 * \[PRIVATE] [RaspberryPi](https://github.com/Stridsvagn69420/RaspberryPi)
