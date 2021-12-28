@@ -16,6 +16,7 @@
 * [Jitter](https://github.com/Stridsvagn69420/Jitter) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
+* [rename](https://github.com/Stridsvagn69420/rename)
 
 ### Web
 * [Stridsvagn69420.github.io](https://github.com/Stridsvagn69420/Stridsvagn69420.github.io)
