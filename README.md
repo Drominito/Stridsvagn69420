@@ -14,7 +14,7 @@
 # I made this:
 ### Cross-platform
 * [Azura](https://github.com/Stridsvagn69420/Azura) (WIP)
-* [Arete](https://github.com/Stridsvagn69420/Arete)
+* [Cyrkensia](https://github.com/Stridsvagn69420/Cyrkensia)
 * [Jitter](https://github.com/Stridsvagn69420/Jitter) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
