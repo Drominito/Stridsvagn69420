@@ -13,12 +13,15 @@
 
 # I made this:
 ### Cross-platform
-* [DiscordRPC-Player](https://github.com/Stridsvagn69420/DiscordRPC-Player) (WIP)
+* [Azura](https://github.com/Stridsvagn69420/Azura) (WIP)
 * [DiscordRPC-Server](https://github.com/Stridsvagn69420/DiscordRPC-Server)
 * [Jitter](https://github.com/Stridsvagn69420/Jitter) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
 * [rename](https://github.com/Stridsvagn69420/rename)
+
+### Android
+* [Shigure](https://github.com/Stridsvagn69420/Shigure) (WIP)
 
 ### Web
 * [Stridsvagn69420.github.io](https://github.com/Stridsvagn69420/Stridsvagn69420.github.io)
