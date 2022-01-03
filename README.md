@@ -24,6 +24,7 @@
 * [Shigure](https://github.com/Stridsvagn69420/Shigure) (WIP)
 
 ### Web
+* [Shigure](https://github.com/Stridsvagn69420/Shigure) (WIP)
 * [Stridsvagn69420.github.io](https://github.com/Stridsvagn69420/Stridsvagn69420.github.io)
 * \[PRIVATE] [dark.unitcore.de](https://github.com/Stridsvagn69420/dark.unitcore.de)
 * \[PRIVATE] [RaspberryPi](https://github.com/Stridsvagn69420/RaspberryPi)
