@@ -37,6 +37,7 @@
 ### Microcontrollers
 * [ArduinoUNO](https://github.com/Stridsvagn69420/ArduinoUNO)
 * [ArduinoMEGA](https://github.com/Stridsvagn69420/ArduinoMEGA)
+* [EV3](https://github.com/Stridsvagn69420/EV3)
 
 ### Other
 * [Math-Class](https://github.com/Stridsvagn69420/Math-Class)
