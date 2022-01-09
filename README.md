@@ -15,7 +15,7 @@
 ### Cross-platform
 * [Azura](https://github.com/Stridsvagn69420/Azura) (WIP)
 * [Cyrkensia](https://github.com/Stridsvagn69420/Cyrkensia)
-* [Jitter](https://github.com/Stridsvagn69420/Jitter) (WIP)
+* [Kagero](https://github.com/Stridsvagn69420/Kagero) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
 * [rename](https://github.com/Stridsvagn69420/rename)
