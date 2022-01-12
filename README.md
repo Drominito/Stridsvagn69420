@@ -6,7 +6,8 @@
 - 📫 How to reach me: [Twitter](https://twitter.com/rog_nineteen), [Instagram](https://www.instagram.com/rog_nineteen/), [Reddit](https://www.reddit.com/user/rog_nineteen)
 - ⚡ Fun fact: I like [Fire Emblem](https://en.wikipedia.org/wiki/Fire_Emblem) and [Battlefield](https://en.wikipedia.org/wiki/Battlefield_(video_game_series)), and could talk for hours about it!
 - 💻 Currently using [Windows 10](https://www.youtube.com/watch?v=IXkw50IKn_4), will switch to [Artix](https://www.youtube.com/watch?v=qe6UKPsppBQ) soon though
-- Favourite Languages: [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
+- 💻 My Raspberry Pi 4 is currectly running [Raspberry Pi OS](https://www.raspberrypi.com/software/) Buster, will switch to [Arch Linux ARM](https://archlinuxarm.org/) very soon though
+- 🖥 Favourite Languages: [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
 
 ![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stridsvagn69420&layout=compact&count_private=true&hide_title=true&langs_count=10&theme=github_dark)
 ![Stats](https://github-readme-stats.vercel.app/api?username=Stridsvagn69420&show_icons=true&theme=github_dark&count_private=true&hide_title=true)
