@@ -19,7 +19,7 @@
 * [Kagero](https://github.com/Stridsvagn69420/Kagero) (WIP)
 * [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)
 * [InstaSaved.js](https://github.com/Stridsvagn69420/InstaSaved.js)
-* [rename](https://github.com/Stridsvagn69420/rename)
+* [replace](https://github.com/Stridsvagn69420/replace)
 
 ### Android
 * [Shigure](https://github.com/Stridsvagn69420/Shigure) (WIP)
