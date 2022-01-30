@@ -1,8 +1,8 @@
 # Hi there ![Visitor](https://komarev.com/ghpvc/?username=Stridsvagn69420&color=blueviolet&style=flat&label=Visitor)👋
 - 👨‍💻 Name: Strids
 - 🚩 Nationality: German 🖤💖💛
-- 💻 Currently using [Windows 10](https://www.youtube.com/watch?v=IXkw50IKn_4), will switch to [Artix](https://www.youtube.com/watch?v=qe6UKPsppBQ) soon though
-- 💻 My Raspberry Pi 4 is currectly running [Arch Linux ARM](https://archlinuxarm.org/), so I use Arch btw.
+- 💻 Currently using [Windows 10](https://www.youtube.com/watch?v=IXkw50IKn_4), will switch to [Artix](https://artixlinux.org/) or [Arch](https://www.youtube.com/watch?v=qe6UKPsppBQ) though
+- 💻 My Raspberry Pi 4 is currectly running [Raspberry Pi OS 11 Bullseye](https://www.raspberrypi.com/news/raspberry-pi-os-debian-bullseye/) and runs [Pi-Hole](https://github.com/pi-hole/pi-hole) and [Gitea](https://github.com/go-gitea/gitea).
 - 🖥 Favourite Languages: [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), [Go](https://en.wikipedia.org/wiki/Go_(programming_language))
 
 <hr>
