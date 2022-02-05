@@ -12,6 +12,7 @@
 | ----- | ------ | ----- |
 | [🎮Fates-Audioplayer🎮](https://github.com/stars/Stridsvagn69420/lists/fates-audioplayer) | [🏮Kagero Package Manager🏮](https://github.com/stars/Stridsvagn69420/lists/kagero-package-manager) | - |
 | - | [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL) | - |
+| - | [Peri Loves Violence](https://github.com/Peri-Loves-Violence) | - |
 
 <hr>
 
