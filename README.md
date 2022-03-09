@@ -2,7 +2,7 @@
 - 👨‍💻 Name: Strids
 - 🚩 Nationality: German 🖤💖💛
 - 💻 Currently using [Windows 10](https://www.youtube.com/watch?v=IXkw50IKn_4), will switch to [Artix](https://artixlinux.org/) or [Arch](https://www.youtube.com/watch?v=qe6UKPsppBQ) though
-- 💻 I also use [Artix](https://artixlinux.org/) with OpenRC and KDE on an external SSD, very nice!
+- 💻 I also use [Fedora](https://getfedora.org/) on an external SSD, very nice!
 - 📱 My Raspberry Pi 4 is currectly running [Raspberry Pi OS 11 Bullseye](https://www.raspberrypi.com/news/raspberry-pi-os-debian-bullseye/) and runs [Pi-Hole](https://github.com/pi-hole/pi-hole) and [Gitea](https://github.com/go-gitea/gitea).
 - 🖥 Favourite Languages: [C#](https://youtu.be/ravLFzIguCM), [Go](https://youtu.be/446E-r0rXHI), [Rust](https://youtu.be/5C_HPTJg5ek), [TypeScript](https://youtu.be/zQnBQ4tB3ZA)
 
