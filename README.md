@@ -8,11 +8,12 @@
 
 <hr>
 
-| Multimedia | Tools | Gaming |
-| ----- | ------ | ----- |
-| [🎮Fates-Audioplayer🎮](https://github.com/stars/Stridsvagn69420/lists/fates-audioplayer) | [🏮Kagero Package Manager🏮](https://github.com/stars/Stridsvagn69420/lists/kagero-package-manager) | - |
-| - | [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL) | - |
-| - | [Peri](https://github.com/Peri-Loves-Violence) | - |
+| Social Media                                                            | Multimedia                                                                                 | Tools                                                                                                | Gaming |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | ------ |
+| [📱Encord📱](https://github.com/stars/Stridsvagn69420/lists/encord)      | [🎮Fates-Audioplayer🎮](https://github.com/stars/Stridsvagn69420/lists/fates-audioplayer) | [🏮Kagero Package Manager🏮](https://github.com/stars/Stridsvagn69420/lists/kagero-package-manager) | -      |
+| [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)                 | -                                                                                          | [Ganyu](https://github.com/Stridsvagn69420/ganyu)                                                    | -      |
+| [Peri](https://github.com/stars/Stridsvagn69420/lists/peri-autoblocker) | -                                                                                          | [VEK](https://github.com/StaOtt/VEK)                                                                 | -      |
+| -                                                                       | -                                                                                          | [dumpsterfire](https://github.com/Stridsvagn69420/dumpsterfire)                                      | -      |
 
 <hr>
 
