@@ -313,6 +313,7 @@ You can graphically configure the firewall later in KDE's settings.
 ### Internet
 * `steam`: Steam Client
 * `discord`: Discord Client
+* `ktorrent`: BitTorrent client for KDE
 
 ### Utils
 * `tealdeer`: tldr but faster, working offline and written in Rust.
@@ -322,6 +323,7 @@ You can graphically configure the firewall later in KDE's settings.
 * `wget`: Basically just a terminal downloader
 * `htop`: Terminal Task Manager
 * `btop`: The Cooler Terminal Task Manager
+* `kwallet`: KWallet Password Wallet
 
 ### Fun
 * `lolcat`: R a i n b o w
@@ -340,6 +342,11 @@ You can graphically configure the firewall later in KDE's settings.
 * `android-sdk-platform-tools`: Android SDK Platform Tools
 * `code-icons`: Change Code - OSS icons to VS Code ones
 * `code-marketplace`: Enable vscode marketplace in Code OSS
+
+### Internet
+* `google-chrome`: Google Chrome
+* `ani-cli`: Watch Anime from the command line
+* `brave-bin`: Brave Browser (Binary Package) 
 
 # More
 If you want to see what else is possible, look at the [repository by pvscvl98](https://github.com/pvscvl98/ArchLinux-Notes) that I used to write this guide.
