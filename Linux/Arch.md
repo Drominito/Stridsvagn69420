@@ -56,7 +56,7 @@ You can graphically configure the firewall later in KDE's settings.
 * `neofetch`: I use Arch, btw.
 * `rsync`: File transfer and backing up the system.
 * `code`: Visual Studio Code (Open-Source/no-Microsoft build)
-* `dotnet-sdk`: Latest .NET SDK (Built from source)
+* `dotnet-core`: Latest .NET Core with SDK and Runtime (Built from source)
 
 ## Other packages (Yay)
 * `visual-studio-code-bin`: Microsoft's build of Visual Studio Code.
