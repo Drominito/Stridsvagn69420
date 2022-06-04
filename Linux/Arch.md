@@ -92,6 +92,81 @@ mkdir /mnt/home
 mount /dev/sdX3 /mnt/home
 ```
 
+2. Pacstrap Arch onto the target drive:
+```sh
+pacstrap /mnt base linux linux-firmware base-devel nano btrfs-progs
+```
+
+## Configuring the system
+1. Create the fstab file for your drive:
+```sh
+genfstab -U /mnt >> /mnt/etc/fstab
+```
+2. Change root into your target drive:
+```sh
+arch-chroot /mnt
+```
+3. Set your timezone and sync hardware clock:
+```
+ln -sf /usr/share/zoneinfo/Europe/Berlin /etc/localtime
+hwclock --systohc
+```
+4. Edit `/etc/locale.gen` and uncomment your lanuages, e.g. `en_US.UTF-8` and `de_DE.UTF-8`
+5. Run `locale-gen` to generate your languages
+6. Edit `/etc/locale.conf` and set the `LANG` like this:
+```
+LANG=de_DE.UTF-8
+LANG=en_US.UTF-8
+```
+7. Set your keymap in `/etc/vconsole.conf`:
+```
+KEYMAP=de-latin1
+```
+8. Set your hostname in `/etc/hostname`:
+```
+iusearchbtw
+```
+9. Modify `/etc/hosts`:
+```
+127.0.0.1   localhost
+::1         localhost
+127.0.1.1   iusearchbtw.localdomain iusearchbtw
+```
+10. Install packages that you want, e.g.:
+```sh
+pacman -S zsh dash man-db man-pages tealdeer git zsh-completions bash-completion gcc which xz gzip
+```
+11. Set the root user's password with `passwd`. Remember it!
+
+## Install GRUB Bootloader
+1. Download required packages:
+```sh
+pacman -S grub efibootmgr
+```
+2. Install GRUB:
+```sh
+grub-install --target=x86_64-efi --bootloader=GRUB --efi-directory=/boot/efi --removable
+```
+3. Create GRUB-Config:
+```sh
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+4. Set `GRUB_GFXMODE` in `/etc/default/grub` from `auto` to your screen resolution, e.g. `1920x1080`.
+5. Regenerate the GRUB-Config: `grub-mkconfig -o /boot/grub/grub.cfg`
+
+## Get a Network Management Software and restart
+1. Install NetworkManager:
+```sh
+pacman -S networkmanager
+systemctl enable NetworkManager
+```
+2. Exit, unmount and shutdown:
+```
+exit
+umount -R /mnt
+shutdown -h now
+```
+
 <hr>
 
 # Extending the install
