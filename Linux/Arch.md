@@ -167,6 +167,34 @@ umount -R /mnt
 shutdown -h now
 ```
 
+## Post-install configuration
+Login as root with the given passwort.
+1. Add a user for yourself:
+```sh
+useradd -m <User> -s /bin/zsh
+```
+2. Add your user to Sudoers/wheel:
+```sh
+usermod -aG wheel <User>
+```
+3. Set your password:
+```sh
+passwd <User>
+```
+4. Enable wheel group by uncommenting `wheel  ALL=(ALL) ALL`:
+```sh
+EDITOR=nano visudo
+```
+5. Symlink dash to `/bin/sh`:
+```sh
+ln -sf /bin/dash /bin/sh
+```
+
+The install is now complete! Just reboot, then login as your user and update the system:
+```
+# pacman -Syu
+```
+
 <hr>
 
 # Extending the install
@@ -265,3 +293,6 @@ You can graphically configure the firewall later in KDE's settings.
 * `android-sdk-platform-tools`: Android SDK Platform Tools
 * `code-icons`: Change Code - OSS icons to VS Code ones
 * `code-marketplace`: Enable vscode marketplace in Code OSS
+
+# More
+If you want to see what else is possible, look at the [repository by pvscvl98](https://github.com/pvscvl98/ArchLinux-Notes) that I used to write this guide.
