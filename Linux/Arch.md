@@ -281,6 +281,7 @@ You can graphically configure the firewall later in KDE's settings.
 * `wget`: Basically just a terminal downloader
 * `htop`: Terminal Task Manager
 * `btop`: The Cooler Terminal Task Manager
+* `sddm-kcm`: KConfig Module for SDDM
 
 ## Other packages (Yay)
 * `visual-studio-code-bin`: Microsoft's build of Visual Studio Code.
