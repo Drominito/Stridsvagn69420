@@ -198,6 +198,41 @@ The install is now complete! Just reboot, then login as your user and update the
 <hr>
 
 # Extending the install
+## Oh-My-Zsh and Powerlevel10k
+Make sure you're using FiraCode or other compatible fonts in your teminal emulator.
+1. Install Oh-My-Zsh
+```sh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+2. Get Powerlevel10k
+```sh
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+```
+3. Edit your `.zshrc`:
+```sh
+ZSH_THEME="powerlevel10k/powerlevel10k"
+```
+4. Reload the config:
+```
+$ source .zshrc
+```
+5. Configure Powerlevel10k if it doesn't start automatically:
+```
+$ p10k configure
+```
+6. Install Plug-Ins:
+```sh
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+7. Enable plugins in `.zshrc`:
+```
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
+```
+
+## Graphical UI with KDE and SDDM
+WIP.
+
 ## Importing Pass
 1. Install Pass:
 ```
@@ -260,30 +295,41 @@ You can graphically configure the firewall later in KDE's settings.
 <hr>
 
 ## Other packages (Pacman)
+### Programming
+* `code`: Visual Studio Code (Open-Source/no-Microsoft build) aka. Code - OSS
 * `golang`: Go SDK
 * `rustup`: Rustup to install the Rust SDK with rustc and cargo
 * `nodejs`: Node.js
 * `npm`: Node Package Manager
 * `yarn`: Yarn Package Manager
-* `discord`: Discord Client
-* `steam`: Steam Client
 * `gcc`: GNU Compiler Collection/GNU C Compiler
 * `clang`: Clang LLVM Compiler
-* `neofetch`: I use Arch, btw.
-* `tealdeer`: TLDR but faster, working offline and written in Rust.
-* `rsync`: File transfer and backing up the system.
-* `code`: Visual Studio Code (Open-Source/no-Microsoft build) aka. Code - OSS
 * `dotnet-core`: Latest .NET Core with SDK and Runtime (Built from source)
-* `lolcat`: R a i n b o w
-* `cmatrix`: Many hack, so Matrix, very cyber.
+* `lua`: Lua SDK
+* `julia`: Juila SDK
+* `kotlin`: Kotlin SDK (Also installs Java)
+* `ruby`: Ruby SDK
+
+### Internet
+* `steam`: Steam Client
+* `discord`: Discord Client
+
+### Utils
+* `tealdeer`: tldr but faster, working offline and written in Rust.
+* `rsync`: File transfer and backing up the system.
 * `arp-scan`: ARP Scan
 * `nmap`: NMAP Scan
 * `wget`: Basically just a terminal downloader
 * `htop`: Terminal Task Manager
 * `btop`: The Cooler Terminal Task Manager
-* `sddm-kcm`: KConfig Module for SDDM
+
+### Fun
+* `lolcat`: R a i n b o w
+* `neofetch`: I use Arch, btw.
+* `cmatrix`: Many hack, so Matrix, very cyber.
 
 ## Other packages (Yay)
+### Programming
 * `visual-studio-code-bin`: Microsoft's build of Visual Studio Code.
 * `powershell-bin`: PowerShell (Binary Package)
 * `powershell`: PowerShell (Compiled from Source)
