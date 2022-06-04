@@ -14,10 +14,31 @@ This is only for a base Install of Arch Linux, the very lightest. You should've 
 <hr>
 
 # Extending the install
+## Importing Pass
+1. Install Pass:
+```
+# pacman -S pass
+```
+### Importing the GPG Key:
+NOTE: You can also use this if you want to move your Git Commit Signing Key or anything else GPG related.
+1. List all available private keys:
+```
+$ gpg --list-secret-keys
+```
+2. Copy the key ID: `pub   4096R/<KEY-ID> ...`
+3. Extract the private key:
+```
+$ gpg --armor --export-secret-keys <KEY-ID> > private.key
+```
+4. Copy the key file onto your machine (SSH, SCP, SFTP, etc.) and import it:
+```
+$ gpg --import private.key
+```
+
 ## AUR
 1. You need Git installed:
 ```
-# pacman -S git
+# pacman -S --needed git base-devel
 ```
 2. Get [Yay](https://github.com/Jguer/yay):
 ```
@@ -42,6 +63,23 @@ $ cd /opt/yay && makepkg -si
 # systemctl enable --now firewalld
 ```
 You can graphically configure the firewall later in KDE's settings.
+
+## Fonts
+* `adobe-source-code-pro-fonts`: Source Code Pro
+* `ttf-jetbrains-mono`: JetBrains Mono
+* `ttf-fira-code`: FiraCode
+* `ttf-ms-fonts`: (AUR) Microsoft Fonts
+* `ttf-vista-fonts`: (AUR) Vista Fonts
+* `ttf-fira-sans`: FiraSans (TrueType)
+* `otf-fira-sans`: FiraSans (OpenType)
+* `ttf-opensans`: Open Sans
+* `ttf-google-fonts-git`: (AUR) Huge collection of Google Fonts
+* `noto-fonts-cjk`: Noto Fonts for Chinese, Korean and Japanese
+* `ttf-hannom`: Vietnamese Chữ Nôm support
+* `noto-fonts-emoji`: Noto Fonts for Emojis
+* `ttf-twemoji`: (AUR) Twitter Emojis
+
+<hr>
 
 ## Other packages (Pacman)
 * `golang`: Go SDK
