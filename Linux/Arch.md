@@ -60,6 +60,6 @@ You can graphically configure the firewall later in KDE's settings.
 
 ## Other packages (Yay)
 * `visual-studio-code-bin`: Microsoft's build of Visual Studio Code.
-* `powershell-bin`: PowerShell (Binary package)
+* `powershell-bin`: PowerShell (Binary Package)
 * `powershell`: PowerShell (Compiled from Source)
-* `dotnet-sdk-bin`: Latest .NET SDK (Binary package)
+* `dotnet-core-bin`: Latest .NET Core with SDK and Runtime (Binary Package)
