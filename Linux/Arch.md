@@ -1,10 +1,12 @@
 # Before you begin:
 * `$` means you can (and should) run it as a normal user, while `#` means you need to run it as root, either via `sudo` or by logging in as root. 
+* Get yourself an [Arch Linux Live Install ISO](https://archlinux.org/download/) and flash it onto a USB drive, preferably one with USB 3.0 and better.
+* Disable Secure Boot for the installation process and then go into the Boot Menu and select your USB drive. For me it's F1 for the BIOS and F12 for the Boot Menu.
 
 <hr>
 
 # Installing Arch Linux
-This is only for a base Install of Arch Linux, the very lightest.
+This is only for a base Install of Arch Linux, the very lightest. You should've already booted into the Arch Linux Live USB.
 
 
 <!--End-->
@@ -40,3 +42,24 @@ $ cd /opt/yay && makepkg -si
 # systemctl enable --now firewalld
 ```
 You can graphically configure the firewall later in KDE's settings.
+
+## Other packages (Pacman)
+* `golang`: Go SDK
+* `rustup`: Rustup to install the Rust SDK with rustc and cargo
+* `nodejs`: Node.js
+* `npm`: Node Package Manager
+* `yarn`: Yarn Package Manager
+* `discord`: Discord Client
+* `steam`: Steam Client
+* `gcc`: GNU Compiler Collection/GNU C Compiler
+* `clang`: Clang LLVM Compiler
+* `neofetch`: I use Arch, btw.
+* `rsync`: File transfer and backing up the system.
+* `code`: Visual Studio Code (Open-Source/no-Microsoft build)
+* `dotnet-sdk`: Latest .NET SDK (Built from source)
+
+## Other packages (Yay)
+* `visual-studio-code-bin`: Microsoft's build of Visual Studio Code.
+* `powershell-bin`: PowerShell (Binary package)
+* `powershell`: PowerShell (Compiled from Source)
+* `dotnet-sdk-bin`: Latest .NET SDK (Binary package)
