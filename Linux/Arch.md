@@ -72,11 +72,24 @@ This is the "partition table" that I went with for my My Passport Go with 500GB:
 2. Create Partitions like above: `# cfdisk /dev/sdX`
 3. Check if partitions are written: `# lsblk`
 4. Create filesystems:
+```sh
+mkfs.fat -F32 /dev/sdX1
+mkswap /dev/sdX2
+mkfs.brtfs -L "Home" /dev/sdX3
+mkfs.ext4 -L "Arch Linux" /dev/sdX4
 ```
-# mkfs.fat -F32 /dev/sdX1
-# mkswap /dev/sdX2
-# mkfs.brtfs -L "Home" /dev/sdX3
-# mkfs.ext4 -L "Arch Linux" /dev/sdX4
+
+## Installing the system on the target drive
+1. Mount the target drive according to its mountpoints:
+```sh
+mount /dev/sdX4 /mnt
+
+mkdir /mnt/boot
+mkdir /mnt/boot/efi
+mount /dev/sdX1 /mnt/boot/efi
+
+mkdir /mnt/home
+mount /dev/sdX3 /mnt/home
 ```
 
 <hr>
