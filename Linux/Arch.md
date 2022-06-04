@@ -63,3 +63,7 @@ You can graphically configure the firewall later in KDE's settings.
 * `powershell-bin`: PowerShell (Binary Package)
 * `powershell`: PowerShell (Compiled from Source)
 * `dotnet-core-bin`: Latest .NET Core with SDK and Runtime (Binary Package)
+* `flutter`: Flutter and Dart SDK
+* `android-studio`: Android Studio
+* `android-sdk`: Android SDK
+* `android-sdk-platform-tools`: Android SDK Platform Tools
