@@ -92,9 +92,17 @@ You can graphically configure the firewall later in KDE's settings.
 * `gcc`: GNU Compiler Collection/GNU C Compiler
 * `clang`: Clang LLVM Compiler
 * `neofetch`: I use Arch, btw.
+* `tealdeer`: TLDR but faster, working offline and written in Rust.
 * `rsync`: File transfer and backing up the system.
-* `code`: Visual Studio Code (Open-Source/no-Microsoft build)
+* `code`: Visual Studio Code (Open-Source/no-Microsoft build) aka. Code - OSS
 * `dotnet-core`: Latest .NET Core with SDK and Runtime (Built from source)
+* `lolcat`: R a i n b o w
+* `cmatrix`: Many hack, so Matrix, very cyber.
+* `arp-scan`: ARP Scan
+* `nmap`: NMAP Scan
+* `wget`: Basically just a terminal downloader
+* `htop`: Terminal Task Manager
+* `btop`: The Cooler Terminal Task Manager
 
 ## Other packages (Yay)
 * `visual-studio-code-bin`: Microsoft's build of Visual Studio Code.
@@ -105,3 +113,5 @@ You can graphically configure the firewall later in KDE's settings.
 * `android-studio`: Android Studio
 * `android-sdk`: Android SDK
 * `android-sdk-platform-tools`: Android SDK Platform Tools
+* `code-icons`: Change Code - OSS icons to VS Code ones
+* `code-marketplace`: Enable vscode marketplace in Code OSS
