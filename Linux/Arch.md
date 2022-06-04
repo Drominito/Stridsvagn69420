@@ -2,14 +2,82 @@
 * `$` means you can (and should) run it as a normal user, while `#` means you need to run it as root, either via `sudo` or by logging in as root. 
 * Get yourself an [Arch Linux Live Install ISO](https://archlinux.org/download/) and flash it onto a USB drive, preferably one with USB 3.0 and better.
 * Disable Secure Boot for the installation process and then go into the Boot Menu and select your USB drive. For me it's F1 for the BIOS and F12 for the Boot Menu.
+* Make sure your target drive uses GPT instead of MBR. You can do all of this via Rufus if you're on Windows.
+
+<hr>
+
+# Moving files
+Files/configs that you can/should copy so that you can use them on your Arch Linux, btw.
+* `~/.gitignore`: Your Git config
+* `~/.zshrc`: Your ZSH config
+* `~/.ssh/`: Your SSH directory containing your config and private keys
+* `~/.config/`: Your local config directory
+* Pass GPG-Key: [Extracting a private GPG Key](#extracting-a-private-gpg-key)
+* Git Signing GPG-Key: [Extracting a private GPG Key](#extracting-a-private-gpg-key)
+
+## Extracting a private GPG Key
+1. List all available private keys:
+```
+$ gpg --list-secret-keys --keyid-format=long
+```
+2. Copy the key ID:
+```
+sec   rsa4096/<ID> YYYY-MM-DD [SC]
+      <KEY-ID>
+uid                 [<Level>] <Name> <<Email>>
+ssb   rsa4096/<SUB-ID> YYYY-MM-DD [E]
+```
+4. Extract the private key:
+```
+$ gpg --armor --export-secret-keys <KEY-ID> > private.key
+```
 
 <hr>
 
 # Installing Arch Linux
 This is only for a base Install of Arch Linux, the very lightest. You should've already booted into the Arch Linux Live USB.
 
+## Prepare the environment
+1. Select your proper keymap:
+```
+root@archiso# loadkeys de-latin1
+```
+3. Connect to a Wi-Fi network if you're not connected via Ethernet:
+```
+root@archiso# iwctl
+[iwd]# station wlan0 get-networks
+[iwd]# station wlan0 connect <SSID>
+[iwd]# //enter passphrase
+[iwd]# station wlan0 show
+[iwd]# exit
+```
+3. Snyc the system time using NTP:
+```
+root@archiso# timedatectl set-ntp true
+root@archiso# timedatectl status
+```
 
-<!--End-->
+## Format Target Drive
+This is the "partition table" that I went with for my My Passport Go with 500GB:
+| Device    | Directory | Size            | Usage            | Type  | Mountpoint (Arch Install) |
+| ------    | --------- | --------------- | ---------------- | ----- | ------------------------- |
+| /dev/sdX1 | /boot/efi | `1G` (1GB)      | EFI-Boot         | FAT32 | /mnt/boot/efi             |
+| /dev/sdX2 | [SWAP]    | `6G` (6GB)      | Swap-Partition   | Swap  | [SWAP]                    |
+| /dev/sdX3 | /home     | `100G` (100GB)  | Home-Partition   | BtrFS | /mnt/home                 |
+| /dev/sdX4 | /         | `393G` (393GB)¹ | System-Partition | Ext4  | /mnt                      |
+
+¹: Everything left, since <Amount>GB labeled drives have actually always a bit less than <Amount>.
+
+1. Get your Target Drive's name (/dev/sdX): `# lsblk`
+2. Create Partitions like above: `# cfdisk /dev/sdX`
+3. Check if partitions are written: `# lsblk`
+4. Create filesystems:
+```
+# mkfs.fat -F32 /dev/sdX1
+# mkswap /dev/sdX2
+# mkfs.brtfs -L "Home" /dev/sdX3
+# mkfs.ext4 -L "Arch Linux" /dev/sdX4
+```
 
 <hr>
 
@@ -20,23 +88,14 @@ This is only for a base Install of Arch Linux, the very lightest. You should've 
 # pacman -S pass
 ```
 2. Download your Password Database:
-`$ git clone https://github.com/<Username>/<Repo> ~/.password-store`
-
-#### Importing the GPG Key:
-NOTE: You can also use this if you want to move your Git Commit Signing Key or anything else GPG related.
-1. List all available private keys:
 ```
-$ gpg --list-secret-keys
+$ git clone https://github.com/<Username>/<Repo> ~/.password-store
 ```
-2. Copy the key ID: `pub   4096R/<KEY-ID> ...`
-3. Extract the private key:
-```
-$ gpg --armor --export-secret-keys <KEY-ID> > private.key
-```
-4. Copy the key file onto your machine (SSH, SCP, SFTP, etc.) and import it:
+3. Import the GPG-Key:
 ```
 $ gpg --import private.key
 ```
+
 
 ## AUR
 1. You need Git installed:
