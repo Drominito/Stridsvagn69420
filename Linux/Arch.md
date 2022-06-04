@@ -19,7 +19,10 @@ This is only for a base Install of Arch Linux, the very lightest. You should've 
 ```
 # pacman -S pass
 ```
-### Importing the GPG Key:
+2. Download your Password Database:
+`$ git clone https://github.com/<Username>/<Repo> ~/.password-store`
+
+#### Importing the GPG Key:
 NOTE: You can also use this if you want to move your Git Commit Signing Key or anything else GPG related.
 1. List all available private keys:
 ```
