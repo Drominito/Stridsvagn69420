@@ -231,7 +231,43 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 ```
 
 ## Graphical UI with KDE and SDDM
-WIP.
+How to install KDE and SDDM along with some optional features. (I have it installed, but I didn't write any guide yet ^^')
+
+## i3 as a lightweight WM alongside KDE and SDDM
+How to install i3 Window Manager and use it instead of Plasma in SDDM. (Working on this ^^')
+
+## Printing with CUPS
+How to setup printing on Arch. I have an Epson WF-2760, so drivers might vary.
+1. Install neccesary packages:
+```sh
+pacman -S cups # Printer Service
+pacman -S ghostscript # PostScript interpreter
+pacman -S system-config-printer # Printer Config Application
+pacman -S gutenprint # Printer driver collection
+```
+
+2. Install optional packages:
+```sh
+pacman -S print-manager # Printer settings for KControl/KDE-Settings
+pacman -S samba # If your printer is accessed via SMB, e.g. by printer servers.
+pacman -S arp-scan # For detecting LAN devices
+```
+
+3. Enable `cups`
+You can either enable cups as a always-on background daemon: `# systemctl enable --now cups.service`  
+Or you enable the socket, so that it only runs when you want to print: `# systemctl enable cups.socket`
+
+4. Start `system-config-printer`
+You can also use "Printer Settings" (or something along this) in your application launcher.
+
+5. Add a new printer.
+If you know how to connect to your printer, e.g. IPP, LPD or Samba, then go for the corresponding option. Else, go for "finding network printers".  
+In my case, going by hostname didn't work and my printer has a static IP anyway so I entered it. You can find your printer's IP with `sudo arp-scan -l`.  
+In my case, again, there we're many options, but there was only one showing the device name, `Epson WF-2760`, which was LPD/LPR. I don't know about other printers but LPD *should* work.
+
+6. Finish the configuration
+What the title says. Name, description and location.  
+You might want to restart your computer if it can't detect metadata like ink level.
 
 ## Importing Pass
 1. Install Pass:
