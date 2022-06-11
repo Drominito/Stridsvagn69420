@@ -261,9 +261,9 @@ Or you enable the socket, so that it only runs when you want to print: `# system
 You can also use "Printer Settings" (or something along this) in your application launcher.
 
 5. Add a new printer.
-If you know how to connect to your printer, e.g. IPP, LPD or Samba, then go for the corresponding option. Else, go for "finding network printers".  
-In my case, going by hostname didn't work and my printer has a static IP anyway so I entered it. You can find your printer's IP with `sudo arp-scan -l`.  
-In my case, again, there we're many options, but there was only one showing the device name, `Epson WF-2760`, which was LPD/LPR. I don't know about other printers but LPD *should* work.
+    * If you know how to connect to your printer, e.g. IPP, LPD or Samba, then go for the corresponding option. Else, go for "finding network printers".  
+    * In my case, going by hostname didn't work and my printer has a static IP anyway so I entered it. You can find your printer's IP with `sudo arp-scan -l`.  
+    * In my case, again, there we're many options, but there was only one showing the device name, `Epson WF-2760`, which was LPD/LPR. I don't know about other printers but LPD *should* work.
 
 6. Finish the configuration
 What the title says. Name, description and location.  
