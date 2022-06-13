@@ -1,12 +1,10 @@
-# Before you begin:
-* `$` means you can (and should) run it as a normal user, while `#` means you need to run it as root, either via `sudo` or by logging in as root. 
+# Arch Linux
+Before you begin with [installing Arch Linux](#installing-arch-linux)
 * Get yourself an [Arch Linux Live Install ISO](https://archlinux.org/download/) and flash it onto a USB drive, preferably one with USB 3.0 and better.
 * Disable Secure Boot for the installation process and then go into the Boot Menu and select your USB drive. For me it's F1 for the BIOS and F12 for the Boot Menu.
 * Make sure your target drive uses GPT instead of MBR. You can do all of this via Rufus if you're on Windows.
 
-<hr>
-
-# Moving files
+## Moving files
 Files/configs that you can/should copy so that you can use them on your Arch Linux, btw.
 * `~/.gitignore`: Your Git config
 * `~/.zshrc`: Your ZSH config
