@@ -23,4 +23,4 @@
 <a href="https://www.instagram.com/rog_nineteen/"><img alt="Instagram" title="Instagram" src="https://www.instagram.com/static/images/ico/square_gradient_192.png/7c119b0c5722.png" width="64px" height="64px"></a>
 
 [![Discord Presence](https://lanyard.cnrad.dev/api/490862024608317440)](https://discord.com/users/490862024608317440)
-![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stridsvagn69420&layout=compact&count_private=true&hide_title=true&langs_count=12&theme=github_dark&hide=cmake,html,php)
+![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Stridsvagn69420&layout=compact&count_private=true&hide_title=true&langs_count=12&theme=github_dark&hide=cmake,makefile,html,php)
