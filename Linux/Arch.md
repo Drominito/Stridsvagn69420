@@ -231,8 +231,8 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 ## Graphical UI with KDE and SDDM
 How to install KDE and SDDM along with some optional features. (I have it installed, but I didn't write any guide yet ^^')
 
-## i3 as a lightweight WM alongside KDE and SDDM
-How to install i3 Window Manager and use it instead of Plasma in SDDM. (Working on this ^^')
+## awesome as a lightweight WM alongside KDE and SDDM
+How to install awesome WM and use it instead of Plasma in SDDM. (Working on this ^^')
 
 ## Printing with CUPS
 How to setup printing on Arch. I have an Epson WF-2760, so drivers might vary.
