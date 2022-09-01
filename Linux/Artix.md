@@ -52,7 +52,7 @@ rc-service ntpd start
 ## Install the base system on the drive
 1. Since we already mounted the drive, we can just run the `basestrap` command.
 ```sh
-basestrap /mnt base base-devel openrc elogind-openrc linux linux-firmware git ssh
+basestrap /mnt base base-devel openrc elogind-openrc linux linux-firmware git openssh
 ```
 2. Then create the fstab file that will mount all the partitions when the systems boots:
 ```sh
