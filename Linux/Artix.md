@@ -195,3 +195,46 @@ exit
 umount -R /mnt
 reboot
 ```
+
+# Post-install configuration
+## Filtering Pacman repositories to EU-only
+Since I prefer EU-based servers, not only because of geo-location but also privacy, I check the `/etc/pacman.d/mirrorlist` file and uncommented every server that isn't in the EU, or central European to be precise.  
+You'll have to check the server location for yourself, but you can often see it in the TLD.
+
+## Enabling the Universe repository
+The Universe repository features packages from the AUR as well as the `artix-archlinux-support` to [enable Arch repositories](#enabling-arch-repositores).  
+I went ahead and enabled the `lib32` repository, then added this entry some lines below it to include the `universe` repository:
+```
+[universe]
+Server = https://universe.artixlinux.org/$arch
+Server = https://mirror1.artixlinux.org/universe/$arch
+Server = https://mirror.pascalpuffke.de/artix-universe/$arch
+Server = https://ftp.crifo.org/artix-universe/$arch
+```
+
+## Enabling Arch repositores
+Artix and Arch repositories vary with their packages, so enabling both can be a benefit.  
+1. Install the support package
+```sh
+sudo pacman -S artix-archlinux-support
+```
+
+2. Populate the Arch Linux keyring
+```sh
+sudo pacman-key --populate archlinux
+```
+
+3. Enable `extra`, `community` and `multilib` with this entry **after** the Artix entries in `/etc/pacman.conf`:
+```ini
+[extra]
+Include = /etc/pacman.d/mirrorlist-arch
+
+[community]
+Include = /etc/pacman.d/mirrorlist-arch
+
+[multilib]
+Include = /etc/pacman.d/mirrorlist-arch
+```
+
+4. (Optional) Enable the Arch mirrors you want:  
+You just have to edit `/etc/pacman.d/mirrorlist-arch` and enable the servers that you want to use, e.g. only central European servers for me.
