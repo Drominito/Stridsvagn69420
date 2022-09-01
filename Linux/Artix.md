@@ -52,7 +52,7 @@ rc-service ntpd start
 ## Install the base system on the drive
 1. Since we already mounted the drive, we can just run the `basestrap` command.
 ```sh
-basestrap /mnt base base-devel openrc elogind-openrc linux linux-firmware
+basestrap /mnt base base-devel openrc elogind-openrc linux linux-firmware git
 ```
 2. Then create the fstab file that will mount all the partitions when the systems boots:
 ```sh
@@ -116,6 +116,11 @@ LC_ALL=
 FONT_MAP=8859-1_to_uni
 FONT=lat1-16
 KEYMAP=de-latin1
+```
+6. Modify `/etc/conf.d/keymaps`:
+```
+keymap="de"
+fix_euro="yes"
 ```
 
 ## Configuring the Boot Loader
