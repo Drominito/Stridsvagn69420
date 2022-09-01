@@ -128,8 +128,10 @@ LC_TELEPHONE=de_DE.UTF-8
 LC_IDENTIFICATION=de_DE.UTF-8
 LC_ALL=
 ```
-7. Set your keymap in `/etc/vconsole.conf`:
+7. Set your kyboard layout in `/etc/vconsole.conf`:
 ```
+FONT_MAP=8859-1_to_uni
+FONT=lat1-16
 KEYMAP=de-latin1
 ```
 8. Set your hostname in `/etc/hostname`:
