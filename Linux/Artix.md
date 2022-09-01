@@ -39,3 +39,18 @@ mount /dev/disk/by-label/Artix /mnt
 mkdir /mnt/boot
 mount /dev/disk/by-label/BOOT /mnt/boot
 ```
+
+## Set up Wifi
+This step is only neccesary if you're using a wireless computer for the installation.
+
+## Enabling Network Time Protocol
+The Network Time Protocol aka. NTP automatically syncronized your computer's real-time clock. Enable it with:
+```sh
+rc-service ntpd start
+```
+
+## Install the base system on the drive
+Since we already mounted the drive, we can just run the `basestrap` command.
+```sh
+basestrap /mnt base base-devel openrc elogind-openrc linux linux-firmware
+```
