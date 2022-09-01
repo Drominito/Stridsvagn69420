@@ -57,12 +57,12 @@ root@archiso# timedatectl status
 
 ## Format Target Drive
 This is the "partition table" that I went with for my My Passport Go with 500GB:
-| Device    | Directory | Size            | Usage            | Type  | Mountpoint (Arch Install) |
-| ------    | --------- | --------------- | ---------------- | ----- | ------------------------- |
-| /dev/sdX1 | /boot/efi | `1G` (1GB)      | EFI-Boot         | FAT32 | /mnt/boot/efi             |
-| /dev/sdX2 | [SWAP]    | `6G` (6GB)      | Swap-Partition   | Swap  | [SWAP]                    |
-| /dev/sdX3 | /home     | `100G` (100GB)  | Home-Partition   | BtrFS | /mnt/home                 |
-| /dev/sdX4 | /         | `393G` (393GB)¹ | System-Partition | Ext4  | /mnt                      |
+| Device    | Directory | Size                 | Usage            | Type  | Mountpoint (Arch Install) |
+| ------    | --------- | -------------------- | ---------------- | ----- | ------------------------- |
+| /dev/sdX1 | /boot     | `500MB` (500 MB)     | EFI-Boot         | FAT32 | /mnt/boot/efi             |
+| /dev/sdX2 | [SWAP]    | `6G` (6GB)           | Swap-Partition   | Swap  | [SWAP]                    |
+| /dev/sdX3 | /home     | `120G` (120GB)       | Home-Partition   | BtrFS | /mnt/home                 |
+| /dev/sdX4 | /         | `372.5G` (372.5GB)¹  | System-Partition | Ext4  | /mnt                      |
 
 ¹: Everything left, since <Amount>GB labeled drives have actually always a bit less than <Amount>.
 
@@ -84,7 +84,7 @@ mount /dev/sdX4 /mnt
 
 mkdir /mnt/boot
 mkdir /mnt/boot/efi
-mount /dev/sdX1 /mnt/boot/efi
+mount /dev/sdX1 /mnt/boot
 
 mkdir /mnt/home
 mount /dev/sdX3 /mnt/home
@@ -137,6 +137,10 @@ pacman -S zsh dash man-db man-pages tealdeer git zsh-completions bash-completion
 11. Set the root user's password with `passwd`. Remember it!
 
 ## Install GRUB Bootloader
+0. Install your CPU's microcode, either `amd-ucode` or `intel-ucode` or both:
+```
+pacman -S amd-ucode intel-ucode
+```
 1. Download required packages:
 ```sh
 pacman -S grub efibootmgr
