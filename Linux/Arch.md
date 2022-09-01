@@ -111,10 +111,22 @@ hwclock --systohc
 ```
 4. Edit `/etc/locale.gen` and uncomment your lanuages, e.g. `en_US.UTF-8` and `de_DE.UTF-8`
 5. Run `locale-gen` to generate your languages
-6. Edit `/etc/locale.conf` and set the `LANG` like this:
-```
+6. Edit `/etc/locale.conf`:
+```sh
 LANG=de_DE.UTF-8
-LANG=en_US.UTF-8
+LANGUAGE=de_DE:en_US      
+LC_TIME=de_DE.UTF-8
+LC_MONETARY=de_DE.UTF-8
+LC_NUMERIC=de_DE.UTF-8
+LC_CTYPE=de_DE.UTF-8
+LC_MESSAGES=de_DE.UTF-8
+LC_PAPER=de_DE.UTF-8
+LC_MEASUREMENT=de_DE.UTF-8
+LC_NAME=de_DE.UTF-8
+LC_ADDRESS=de_DE.UTF-8
+LC_TELEPHONE=de_DE.UTF-8
+LC_IDENTIFICATION=de_DE.UTF-8
+LC_ALL=
 ```
 7. Set your keymap in `/etc/vconsole.conf`:
 ```
