@@ -15,7 +15,8 @@ I want to use this as a light Linux install for troubleshooting and development 
 * tmpfs for everything that is unneccesary
 
 # Installing the base system
-Boot into the Artix Base ISO that you want to use. Set your timezone and keyboard layout, then proceed to boot into the Live ISO.
+Boot into the Artix Base ISO that you want to use. Set your timezone and keyboard layout, then proceed to boot into the Live ISO.  
+Either login as root or login as artix, but then remember to use sudo for the system commands.
 
 ## Formatting the disk
 All computers that I know have UEFI enabled so there's no need for me to support legacy BIOS. This is the table I went with for my 128GB USB drive:
