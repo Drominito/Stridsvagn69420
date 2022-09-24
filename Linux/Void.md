@@ -66,6 +66,9 @@ UUID=b9f46a29-2b46-465b-b10f-581ce5dfc96f /     brtfs defaults 0 1
 <hr>
 
 This is essentially the entire base installation, nothing special really. Now insert the microSD card into your Raspberry Pi 4 and boot it up!
+```sh
+umount -R /mnt
+```
 
 # Post-install configuration
 WIP.
