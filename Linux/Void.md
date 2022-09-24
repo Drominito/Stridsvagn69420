@@ -34,3 +34,20 @@ mkfs.fat -F32 /dev/mmcblk0p1
 mkswap /dev/mmcblk0p2
 mkfs.btrfs -L "Void Linux" /dev/mmcblk0p3
 ```
+
+## Mount the microSD card
+Since this will be a tarball install, we'll have to mount the SD card. This is on Linux, so you'll have to use a VM and USB passthrough for this guide if you're on Windows, the same probably goes for macOS too.
+```sh
+mount /dev/mmcblk0p3 /mnt        # Mounts the main partition
+mkdir /mnt/boot
+mount /dev/mmcblk0p1 /mnt/boot   # Mounts the boot partition
+```
+
+## Write Void Linux to the microSD card
+This installation seems pretty fast, and it is! You could install it via chroot with XBPS (given you're already on Void - you also need QEMU if you don't run on aarch64 already) or a rootfs install (similar to chroot with XBPS, but it doesn't have to be Void, though you still need QEMU), but I went with the platformfs method for this guide, because it's pretty straight forward.  
+Note that you should directly update the system as soon as you boot into it. My tarball had the timecode `20210930`, so it's from 30.09.2021 - that's almost a year ago!
+
+Anyway, just download the `rootfs tarball` for the `rpi4` and run this command:
+```sh
+tar xvfp "<filename>.tar.xz" -C /mnt
+```
