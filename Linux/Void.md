@@ -51,3 +51,21 @@ Anyway, just download the `rootfs tarball` for the `rpi4` and run this command:
 ```sh
 tar xvfp "<filename>.tar.xz" -C /mnt
 ```
+
+## Configure fstab
+You'll have to add the boot and root partitions to `/etc/fstab`. I went with the UUID as the identifier. You can get the partitons' IDs with `lsblk -o NAME,SIZE,TYPE,MOUNTPOINTS,FSTYPE,UUID`.
+```fstab
+# <file system> <dir>   <type>  <options>               <dump>  <pass>
+tmpfs           /tmp    tmpfs   defaults,nosuid,nodev   0       0
+
+# Void Linux microSD
+UUID=CE73-E51A                            /boot vfat  defaults 0 2
+UUID=b9f46a29-2b46-465b-b10f-581ce5dfc96f /     brtfs defaults 0 1
+```
+
+<hr>
+
+This is essentially the entire base installation, nothing special really. Now insert the microSD card into your Raspberry Pi 4 and boot it up!
+
+# Post-install configuration
+WIP.
