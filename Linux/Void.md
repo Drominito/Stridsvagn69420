@@ -18,7 +18,7 @@ My Raspberry Pi serves as a little home server and these goals will probably be 
 
 # Installing the base system onto the Pi
 ## Formatting the microSD card
-I went with this partitioning for my 128 GB microSD card. (Note that I also use GPT for the partition table)
+I went with this partitioning for my 128 GB microSD card. (Note that I also use MBR and not GPT for the partition table)
 | Device         | Directory | Size                       | Type  | Usage          |
 | -------------- | --------- | -------------------------- | ----- | -------------- |
 | /dev/mmcblk0p1 | /boot     | 1 GB (1024 MB)             | FAT32 | Boot Partition |
