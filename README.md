@@ -18,6 +18,7 @@
 
 <a href="https://gitea.com/Stridsvagn69420"><img alt="Gitea" title="Gitea" src="https://gitea.com/assets/img/logo.svg" width="64px" height="64px"></a>
 <a href="https://www.youtube.com/channel/UCVSxHXchrTXZLGJOWYAS4_w"><img alt="YouTube" title="YouTube Channel" src="https://www.gstatic.com/youtube/img/branding/favicon/favicon_192x192.png" width="64px" height="64px"></a>
+<a href="https://mastodon.social/@rog_nineteen"><img alt="Mastodon" title="Mastodon" src="https://static-cdn.mastodon.social/packs/media/icons/android-chrome-144x144-7199f4c1f32e23b1d8aedf8f9328c9b2.png" width="64px" height="64px"></a>
 <a href="https://twitter.com/rog_nineteen"><img alt="Twitter" title="Twitter" src="https://abs.twimg.com/responsive-web/client-web/icon-default.ee534d85.png" width="64px" height="64px"></a>
 <a href="https://www.instagram.com/rog_nineteen/"><img alt="Instagram" title="Instagram" src="https://www.instagram.com/static/images/ico/square_gradient_192.png/7c119b0c5722.png" width="64px" height="64px"></a>
 
