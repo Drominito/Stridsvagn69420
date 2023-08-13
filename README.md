@@ -4,7 +4,7 @@
 - 💻 Currently using [Windows 11](https://www.youtube.com/clip/UgkxC-54RNRkmwL40zHN8q-7Rf_kTlaIaMu4) on my MSI Katana.
 - 💻 Also running [Arch Linux](https://www.youtube.com/watch?v=EZEfN5z8Mlg) with KDE on my previous Lenovo laptop.
 - 📱 Raspberry Pi 4 that runs [Raspberry Pi OS 11 Bullseye](https://www.raspberrypi.com/news/raspberry-pi-os-debian-bullseye/) with [Pi-Hole](https://github.com/pi-hole/pi-hole) and [Gitea](https://github.com/go-gitea/gitea).
-- 🖥 Favourite Languages: [C#](https://youtu.be/ravLFzIguCM), [Go](https://youtu.be/446E-r0rXHI), [Rust](https://youtu.be/5C_HPTJg5ek), [TypeScript](https://youtu.be/zQnBQ4tB3ZA)
+- 🖥 Favourite Languages: [Rust](https://youtu.be/5C_HPTJg5ek), [C#](https://youtu.be/ravLFzIguCM)
 
 <hr>
 
