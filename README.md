@@ -8,10 +8,10 @@
 
 <hr>
 
-| Social Media                                                            | Multimedia                                                                                 | Tools                                                                                                | Gaming                                                    | OS                                                        |
-| ----------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
-| [Tweet-DL](https://github.com/Stridsvagn69420/Tweet-DL)                 | [🎮Fates-Audioplayer🎮](https://github.com/stars/Stridsvagn69420/lists/fates-audioplayer) | [🏮Kagero Package Manager🏮](https://github.com/stars/Stridsvagn69420/lists/kagero-package-manager) | [shadowarc](https://github.com/Stridsvagn69420/shadowarc) | [Akali](https://github.com/Stridsvagn69420/Akali)         |
-| [Peri](https://github.com/stars/Stridsvagn69420/lists/peri-autoblocker) | -                                                                                          | [Ganyu](https://github.com/Stridsvagn69420/ganyu)                                                    | [dstatus](https://github.com/Stridsvagn69420/dstatus)     | [pi-fanctl](https://github.com/Stridsvagn69420/pi-fanctl) |
+| Multimedia                                                                                 | Tools                                                                                                | OS                                                        |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| [🎮Fates-Audioplayer🎮](https://github.com/stars/Stridsvagn69420/lists/fates-audioplayer) | [🏮Kagero Package Manager🏮](https://github.com/stars/Stridsvagn69420/lists/kagero-package-manager) | [Akali](https://github.com/Stridsvagn69420/Akali)         |
+| -                                                                                          | -                                                                                                    | [pi-fanctl](https://github.com/Stridsvagn69420/pi-fanctl) |
 
 <hr>
 

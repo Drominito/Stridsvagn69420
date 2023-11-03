@@ -1,2 +1,0 @@
-# OpenBSD.md
-WIP.
